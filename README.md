@@ -1,4 +1,4 @@
-# [guid.js](https://github.com/yanhaijing/guid.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/guid_js) [![Build Status](https://travis-ci.org/yanhaijing/guid.js.svg?branch=master)](https://travis-ci.org/yanhaijing/guid.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/guid.js/blob/master/LICENSE)
+# [guid.js](https://github.com/yanhaijing/guid.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/@yanhaijing/guid_js) [![Build Status](https://travis-ci.org/yanhaijing/guid.js.svg?branch=master)](https://travis-ci.org/yanhaijing/guid.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/guid.js/blob/master/LICENSE)
 简单好用的JS全局ID生成工具
 
 ## 兼容性
@@ -29,13 +29,13 @@
 通过npm下载安装代码
 
 ```bash
-$ npm install --save guid_js
+$ npm install --save @yanhaijing/guid_js
 ```
 
 如果你是node环境
 
 ```js
-var guid = require('guid_js').guid;
+var guid = require('@yanhaijing/guid_js').guid;
 
 guid();
 ```
@@ -43,7 +43,7 @@ guid();
 如果你是webpack等环境
 
 ```js
-import { guid } from 'guid_js';
+import { guid } from '@yanhaijing/guid_js';
 
 guid();
 ```
@@ -51,7 +51,7 @@ guid();
 如果你是requirejs环境
 
 ```js
-requirejs(['node_modules/guid_js/dist/index.aio.js'], function (guid_js) {
+requirejs(['node_modules/@yanhaijing/guid_js/dist/index.aio.js'], function (guid_js) {
     var guid = guid_js.guid;
 
     guid();
@@ -61,7 +61,7 @@ requirejs(['node_modules/guid_js/dist/index.aio.js'], function (guid_js) {
 如果你是浏览器环境
 
 ```html
-<script src="node_modules/guid_js/dist/index.aio.js"></script>
+<script src="node_modules/@yanhaijing/guid_js/dist/index.aio.js"></script>
 
 <script>
     var guid = guid_js.guid;
@@ -101,7 +101,7 @@ $ npm run release
 将新版本发布到npm
 
 ```bash
-$ npm publish
+$ npm publish --access=public
 ```
 
 可能需要你自己修改的地方如下：
