@@ -1,7 +1,5 @@
-import { isFunction } from '@yanhaijing/is_js';
-
-export function warn(...args) {
-    if (console && isFunction(console.warn)) {
-        console.warn('warn:', ...args);
-    }
+export function warn(msg) {
+    try {
+        console.warn('error:', msg);
+    } catch(e) {}
 }
