@@ -1,6 +1,6 @@
 {
   "name": "@yanhaijing/guid_js",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "全局ID生成工具",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",

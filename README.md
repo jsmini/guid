@@ -1,4 +1,4 @@
-# [guid.js](https://github.com/yanhaijing/guid.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.1.1-orange.svg)](https://www.npmjs.com/package/@yanhaijing/guid_js) [![Build Status](https://travis-ci.org/yanhaijing/guid.js.svg?branch=master)](https://travis-ci.org/yanhaijing/guid.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/guid.js/blob/master/LICENSE)
+# [guid.js](https://github.com/yanhaijing/guid.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.2.0-orange.svg)](https://www.npmjs.com/package/@yanhaijing/guid_js) [![Build Status](https://travis-ci.org/yanhaijing/guid.js.svg?branch=master)](https://travis-ci.org/yanhaijing/guid.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/guid.js/blob/master/LICENSE)
 简单好用的JS全局ID生成工具
 
 ## 兼容性
