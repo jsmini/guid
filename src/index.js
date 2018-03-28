@@ -1,13 +1,14 @@
 import { isString } from '@yanhaijing/is_js';
 
-import { error } from './util';
+import { warn } from './util';
 
 let i = 0;
 
 export function guid(prefix = '') {
     if (!isString(prefix)) {
-        error('guid param must is string');
-        prefix = '';
+        warn('guid param must is string');
+        // 强制转换
+        prefix = String(prefix);
     }
 
     return prefix + i++;

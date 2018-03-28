@@ -1,5 +1,5 @@
-export function error(msg) {
+export function warn(msg) {
     try {
-        console.error('error:', msg);
+        console.warn('warn:', msg);
     } catch(e) {}
 }
