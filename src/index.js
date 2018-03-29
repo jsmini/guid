@@ -1,13 +1,9 @@
-import { isString } from '@yanhaijing/is_js';
-
-import { warn } from './util';
-
 let i = 0;
 
-export function guid(prefix = '') {
-    if (!isString(prefix)) {
-        warn('guid param must is string');
-        // 强制转换
+export function guid(prefix) {
+    if (typeof prefix === 'undefined') {
+        prefix = '';
+    } else {
         prefix = String(prefix);
     }
 
