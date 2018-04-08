@@ -1,4 +1,4 @@
-# [guid.js](https://github.com/yanhaijing/guid.js) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.5.0-orange.svg)](https://www.npmjs.com/package/@yanhaijing/guid_js) [![Build Status](https://travis-ci.org/yanhaijing/guid.js.svg?branch=master)](https://travis-ci.org/yanhaijing/guid.js) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/guid.js/blob/master/LICENSE)
+# [guid](https://github.com/yanhaijing/guid) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.6.0-orange.svg)](https://www.npmjs.com/package/@jsmini/guid) [![Build Status](https://travis-ci.org/jsmini/guid.svg?branch=master)](https://travis-ci.org/jsmini/guid) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/guid/blob/master/LICENSE)
 简单好用的JS全局ID生成工具，原生兼容IE6
 
 ## 兼容性
@@ -29,13 +29,13 @@
 通过npm下载安装代码
 
 ```bash
-$ npm install --save @yanhaijing/guid_js
+$ npm install --save @jsmini/guid
 ```
 
 如果你是node环境
 
 ```js
-var guid = require('@yanhaijing/guid_js').guid;
+var guid = require('@jsmini/guid').guid;
 
 guid();
 ```
@@ -43,7 +43,7 @@ guid();
 如果你是webpack等环境
 
 ```js
-import { guid } from '@yanhaijing/guid_js';
+import { guid } from '@jsmini/guid';
 
 guid();
 ```
@@ -51,8 +51,8 @@ guid();
 如果你是requirejs环境
 
 ```js
-requirejs(['node_modules/@yanhaijing/guid_js/dist/index.aio.js'], function (guid_js) {
-    var guid = guid_js.guid;
+requirejs(['node_modules/@jsmini/guid/dist/index.aio.js'], function (jsmini_guid) {
+    var guid = jsmini_guid.guid;
 
     guid();
 })
@@ -61,17 +61,17 @@ requirejs(['node_modules/@yanhaijing/guid_js/dist/index.aio.js'], function (guid
 如果你是浏览器环境
 
 ```html
-<script src="node_modules/@yanhaijing/guid_js/dist/index.aio.js"></script>
+<script src="node_modules/@jsmini/guid/dist/index.aio.js"></script>
 
 <script>
-    var guid = guid_js.guid;
+    var guid = jsmini_guid.guid;
 
     guid();
 </script>
 ```
 
 ## 文档
-[API](https://github.com/yanhaijing/guid.js/blob/master/doc/api.md)
+[API](https://github.com/jsmini/guid/blob/master/doc/api.md)
 
 ## 贡献指南
 首次运行需要先安装依赖
@@ -112,9 +112,9 @@ $ npm publish --access=public
 - test/browser/index.html 中的仓库名称
 
 ## 更新日志
-[CHANGELOG.md](https://github.com/yanhaijing/guid.js/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/jsmini/guid/blob/master/CHANGELOG.md)
 
 ## 计划列表
-[TODO.md](https://github.com/yanhaijing/guid.js/blob/master/TODO.md)
+[TODO.md](https://github.com/jsmini/guid/blob/master/TODO.md)
 
 ## 谁在使用

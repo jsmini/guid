@@ -1,15 +1,15 @@
 var pkg = require('../package.json');
 
 // 兼容 jslib-base 和 @yanhaijing/jslib-base 
-var name = pkg.name.split('/').pop();
+var name = pkg.name.replace('@', '').replace(/\//g, '_');
 var version = pkg.version;
 
 var banner = 
 `/*!
- * guid.js ${version} (https://github.com/yanhaijing/guid.js)
- * API https://github.com/yanhaijing/guid.js/blob/master/doc/api.md
+ * guid ${version} (https://github.com/jsmini/guid)
+ * API https://github.com/jsmini/guid/blob/master/doc/api.md
  * Copyright 2017-${(new Date).getFullYear()} yanhaijing. All Rights Reserved
- * Licensed under MIT (https://github.com/yanhaijing/guid.js/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/jsmini/guid/blob/master/LICENSE)
  */
 `;
 
