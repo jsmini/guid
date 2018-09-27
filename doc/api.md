@@ -1,6 +1,30 @@
 # 文档
 简单好用的JS全局ID生成工具
 
+## Guid
+通过Guid可以新生成一个guid实例，从而重新开始
+
+- param {int} index 指定guid的开始值，必须是整数，非整数会被自动转换
+- return {object} Guid实例
+
+Guid#guid 参数和用法同下面的guid方法
+
+举个例子
+
+```js
+var g1 = new Guid();
+
+g1.guid() // 0
+g1.guid() // 1
+g1.guid() // 2
+
+var g2 = new Guid(10);
+
+g2.guid() // 10
+g2.guid() // 11
+g2.guid() // 12
+```
+
 ## guid
 生成全局唯一的ID，支持0-2^64个，可选前缀
 

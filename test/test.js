@@ -2,11 +2,23 @@
 
 var expect = require('expect.js');
 
+var Guid = require('../dist/index.js').Guid;
 var guid = require('../dist/index.js').guid;
 var uuid = require('../dist/index.js').uuid;
 
 describe('单元测试', function() {
     this.timeout(1000);
+
+    describe('Guid', function() {
+        var g1 = new Guid();
+        var g2 = new Guid(10);
+
+        expect(g1.guid()).to.equal('0');
+        expect(g1.guid()).to.equal('1');
+        expect(g2.guid()).to.equal('10');
+        expect(g2.guid()).to.equal('11');
+        
+    });
 
     describe('guid', function() {
         it('无参数', function() {

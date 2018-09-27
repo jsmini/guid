@@ -1,13 +1,23 @@
-let i = 0;
-
-export function guid(prefix) {
-    if (typeof prefix === 'undefined') {
-        prefix = '';
-    } else {
-        prefix = String(prefix);
+export function Guid(index = 0) {
+    index = parseInt(index, 10);
+    
+    if (isNaN(index)) {
+        index = 0;
     }
 
-    return prefix + i++;
+    this.index = index;
+}
+
+Guid.prototype.guid = function (prefix = '') {
+    prefix = String(prefix);
+
+    return prefix + this.index++;
+};
+
+const g = new Guid();
+
+export function guid(prefix) {
+    return g.guid(prefix);
 }
 
 export function uuid() {
