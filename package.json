@@ -1,6 +1,6 @@
 {
   "name": "@jsmini/guid",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "全局ID生成工具",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
