@@ -1,50 +1,53 @@
 # [guid](https://github.com/yanhaijing/guid) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.8.0-orange.svg)](https://www.npmjs.com/package/@jsmini/guid) [![Build Status](https://travis-ci.org/jsmini/guid.svg?branch=master)](https://travis-ci.org/jsmini/guid) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/guid/blob/master/LICENSE)
+
+Simple guid generator for JS. Support IE6
+
 简单好用的JS全局ID生成工具，原生兼容IE6
 
-## 兼容性
-单元测试保证支持如下环境：
+English | [简体中文](./README-zh_CN.md)
 
-| IE   | CH   | FF   | SF   | OP   | IOS  | 安卓   | Node  |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- |
-| 6+   | 23+  | 4+   | 6+   | 10+  | 5+   | 2.3+ | 0.10+ |
+## Environment Support
 
-## 目录介绍
+unit test ensure it supports the following environments.
+
+| IE/Edge | Chrome | Firefox | Safari | Opera | IOS  | Android | Node  |
+| ------- | ------ | ------- | ------ | ----- | ---- | ------- | ----- |
+| 6+      | 23+    | 4+      | 6+     | 10+   | 5+   | 2.3+    | 0.10+ |
+
+
+## Directory
 
 ```
 .
-├── demo 使用demo
-├── dist 编译产出代码
-├── doc 项目文档
-├── src 源代码目录
-├── test 单元测试
-├── CHANGELOG.md 变更日志
-└── TODO.md 计划功能
+├── demo
+├── dist  # production code
+├── doc   # document
+├── src   # source code
+├── test  # unit test
+├── CHANGELOG.md
+└── TODO.md
 ```
 
-## 如何使用
-通过npm下载安装代码
+## Usage
+npm installation
 
 ```bash
 $ npm install --save @jsmini/guid
 ```
 
-如果你是node环境
+Node.js
 
 ```js
-var guid = require('@jsmini/guid').guid;
-
-guid();
+var name = require('@jsmini/guid').guid;
 ```
 
-如果你是webpack等环境
+webpack
 
 ```js
-import { guid } from '@jsmini/guid';
-
-guid();
+import { name } from '@jsmini/guid';
 ```
 
-如果你是requirejs环境
+Require.js
 
 ```js
 requirejs(['node_modules/@jsmini/guid/dist/index.aio.js'], function (jsmini_guid) {
@@ -54,7 +57,7 @@ requirejs(['node_modules/@jsmini/guid/dist/index.aio.js'], function (jsmini_guid
 })
 ```
 
-如果你是浏览器环境
+Browser
 
 ```html
 <script src="node_modules/@jsmini/guid/dist/index.aio.js"></script>
@@ -66,51 +69,59 @@ requirejs(['node_modules/@jsmini/guid/dist/index.aio.js'], function (jsmini_guid
 </script>
 ```
 
-## 文档
+## Document
+
 [API](https://github.com/jsmini/guid/blob/master/doc/api.md)
 
-## 贡献指南
-首次运行需要先安装依赖
+## Contributing Guide  ![PRs welcome](<https://img.shields.io/badge/PRs-welcome-brightgreen.svg>)
+when initialize, install dependencies 
 
 ```bash
 $ npm install
 ```
 
-一键打包生成生产代码
+builds your code for production to `build` folder
 
 ```bash
 $ npm run build
 ```
 
-运行单元测试，浏览器环境需要手动测试，位于`test/browser`
+run unit test.  notice: borwser enviroment need to test manually.  test file is in `test/browser`
 
 ```bash
 $ npm test
 ```
 
-修改package.json中的版本号，修改README.md中的版本号，修改CHANGELOG.md，然后发布新版
+change  the  version in package.json and README.md, add your description in CHANGELOG.md, and then release it happily.
 
 ```bash
 $ npm run release
 ```
 
-将新版本发布到npm
+publish the new package to npm
 
 ```bash
 $ npm publish --access=public
 ```
 
-可能需要你自己修改的地方如下：
+rename  project. you need to edit project name when initialize project or anytime you want to rename the project . you need to rename `formName` and `toname` in file `rename.js`,which will automatically rename project name in the following files
 
-- README.md 中的信息
-- package.json 中的信息
-- config/rollup.js 中的信息
-- test/browser/index.html 中的仓库名称
+- README.md
+- package.json
+- config/rollup.js
+- test/browser/index.html
 
-## 更新日志
-[CHANGELOG.md](https://github.com/jsmini/guid/blob/master/CHANGELOG.md)
+```bash
+$ npm run rename # rename command
+```
 
-## 计划列表
-[TODO.md](https://github.com/jsmini/guid/blob/master/TODO.md)
+## Contributors
+[contributors](https://github.com/jsmini/clone/graphs/contributors)
 
-## 谁在使用
+## CHANGELOG
+[CHANGELOG.md](https://github.com/jsmini/clone/blob/master/CHANGELOG.md)
+
+## TODO
+[TODO.md](https://github.com/jsmini/clone/blob/master/TODO.md)
+
+## who is using
