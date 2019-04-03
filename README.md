@@ -38,13 +38,17 @@ $ npm install --save @jsmini/guid
 Node.js
 
 ```js
-var name = require('@jsmini/guid').guid;
+var guid = require('@jsmini/guid').guid;
+
+guid();
 ```
 
 webpack
 
 ```js
-import { name } from '@jsmini/guid';
+import { guid } from '@jsmini/guid';
+
+guid();
 ```
 
 Require.js
@@ -104,22 +108,15 @@ publish the new package to npm
 $ npm publish --access=public
 ```
 
-rename  project. you need to edit project name when initialize project or anytime you want to rename the project . you need to rename `formName` and `toname` in file `rename.js`,which will automatically rename project name in the following files
+  Maybe you should change relative information in the follow files
 
 - README.md
 - package.json
 - config/rollup.js
 - test/browser/index.html
 
-```bash
-$ npm run rename # rename command
-```
-
-## Contributors
-[contributors](https://github.com/jsmini/clone/graphs/contributors)
-
 ## CHANGELOG
-[CHANGELOG.md](https://github.com/jsmini/clone/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/jsmini/guid/blob/master/CHANGELOG.md)
 
 ## TODO
 [TODO.md](https://github.com/jsmini/clone/blob/master/TODO.md)
