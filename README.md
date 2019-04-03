@@ -1,4 +1,4 @@
-# [guid](https://github.com/yanhaijing/guid) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.8.0-orange.svg)](https://www.npmjs.com/package/@jsmini/guid) [![Build Status](https://travis-ci.org/jsmini/guid.svg?branch=master)](https://travis-ci.org/jsmini/guid) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/guid/blob/master/LICENSE)
+# [guid](<https://github.com/jsmini/guid/>) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.8.0-orange.svg)](https://www.npmjs.com/package/@jsmini/guid) [![Build Status](https://travis-ci.org/jsmini/guid.svg?branch=master)](https://travis-ci.org/jsmini/guid) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/guid/blob/master/LICENSE)
 
 Simple guid generator for JS. Support IE6
 
@@ -119,6 +119,6 @@ $ npm publish --access=public
 [CHANGELOG.md](https://github.com/jsmini/guid/blob/master/CHANGELOG.md)
 
 ## TODO
-[TODO.md](https://github.com/jsmini/clone/blob/master/TODO.md)
+[TODO.md](<https://github.com/jsmini/guid/blob/master/TODO.md>)
 
 ## who is using
