@@ -114,6 +114,6 @@ $ npm publish --access=public
 [CHANGELOG.md](https://github.com/jsmini/guid/blob/master/CHANGELOG.md)
 
 ## 计划列表
-[CHANGELOG.md](<https://github.com/jsmini/guid/blob/master/TODO.md>)
+[TODO.md](<https://github.com/jsmini/guid/blob/master/TODO.md>)
 
 ## 谁在使用
