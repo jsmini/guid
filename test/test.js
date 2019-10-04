@@ -2,9 +2,9 @@
 
 var expect = require('expect.js');
 
-var Guid = require('../dist/index.js').Guid;
-var guid = require('../dist/index.js').guid;
-var uuid = require('../dist/index.js').uuid;
+var Guid = require('../src/index.js').Guid;
+var guid = require('../src/index.js').guid;
+var uuid = require('../src/index.js').uuid;
 
 describe('单元测试', function() {
     this.timeout(1000);

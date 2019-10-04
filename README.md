@@ -1,4 +1,10 @@
-# [guid](<https://github.com/jsmini/guid/>) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.8.0-orange.svg)](https://www.npmjs.com/package/@jsmini/guid) [![Build Status](https://travis-ci.org/jsmini/guid.svg?branch=master)](https://travis-ci.org/jsmini/guid) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/guid/blob/master/LICENSE)
+# [guid](<https://github.com/jsmini/guid/>)
+[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/guid/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/jsmini/guid.svg?branch=master)](https://travis-ci.org/jsmini/guid)
+[![npm](https://img.shields.io/badge/npm-0.8.0-orange.svg)](https://www.npmjs.com/package/@jsmini/guid)
+[![NPM downloads](http://img.shields.io/npm/dm/@jsmini/guid.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/guid)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/guid.svg)](http://isitmaintained.com/project/jsmini/guid "Percentage of issues still open")
 
 Simple guid generator for JS. Support IE6
 
