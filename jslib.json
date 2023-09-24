@@ -1,9 +1,9 @@
 {
-    "name": "guid",
-    "npmname": "@jsmini/guid",
-    "umdname": "jsmini_guid",
-    "username": "jsmini",
-    "type": "js",
-    "lang": "zh",
-    "version": "1.2.0"
+  "name": "guid",
+  "npmname": "@jsmini/guid",
+  "umdname": "jsmini_guid",
+  "username": "jsmini",
+  "type": "js",
+  "lang": "zh",
+  "version": "1.2.0"
 }
